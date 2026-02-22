@@ -16,11 +16,12 @@ Step 3) Save and send!
 Step 4) Profit????
 
 ## Project Features
-✨ JavaScript
-✨ HTML/CSS
-✨ HTML5 Canvas
+- JavaScript
+- HTML/CSS
+- HTML5 Canvas
 
 A few features I'd like to update in the future:
-✨ Undo/Redo
-✨ Changing Background
-✨ Palette Importer 
+- ↩️Undo/Redo
+- 🖍️Changing Background Color
+- 🫟Fill Button
+- 🎨Palette Importer 
