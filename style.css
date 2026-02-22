@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Awesome";
+  src: url(fonts/Awesome\ 9.ttf);
+}
+
+* {
+  font-family: "Awesome";
+}
+
+body {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #f9dbbd;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #a53860;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 2rem;
+  color: #450920;
+}
+
+li {
+  list-style-position: inside;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #da627d;
+}
+
+p {
+  color: #90aa86;
+}
+
+label {
+  color: #da627d;
+}
+
+canvas {
+  background-color: antiquewhite;
+  width: 500px;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 13px;
+}
+
+.button-ribbon {
+  margin: 10px;
+}
+
+#redBtn {
+  color: rgb(235, 70, 47);
+}
+
+#redBtn:hover {
+  background-color: rgb(235, 70, 47);
+  color: antiquewhite;
+}
+
+#orangeBtn {
+  color: rgb(227, 100, 19);
+}
+
+#orangeBtn:hover {
+  background-color: rgb(227, 100, 19);
+  color: antiquewhite;
+}
+
+#yellowBtn {
+  color: rgb(247, 203, 21);
+}
+
+#yellowBtn:hover {
+  background-color: rgb(247, 203, 21);
+  color: antiquewhite;
+}
+
+#greenBtn {
+  color: rgb(156, 196, 178);
+}
+
+#greenBtn:hover {
+  background-color: rgb(156, 196, 178);
+  color: antiquewhite;
+}
+
+#blueBtn {
+  color: rgb(45, 125, 210);
+}
+
+#blueBtn:hover {
+  background-color: rgb(45, 125, 210);
+  color: antiquewhite;
+}
+
+#pinkBtn {
+  color: rgb(255, 130, 169);
+}
+
+#pinkBtn:hover {
+  background-color: rgb(255, 130, 169);
+  color: antiquewhite;
+}
+
+#purpleBtn {
+  color: rgb(118, 49, 132);
+}
+
+#purpleBtn:hover {
+  background-color: rgb(118, 49, 132);
+  color: antiquewhite;
+}
+
+#blackBtn {
+  color: rgb(8, 20, 25);
+}
+
+#blackBtn:hover {
+  background-color: rgb(8, 20, 25);
+  color: antiquewhite;
+}
+
+#whiteBtn {
+  background-color: #353535;
+  color: white;
+}
+
+#whiteBtn:hover {
+  background-color: antiquewhite;
+  color: #a53860;
+}
+
+#eraseBtn {
+  background-color: #da627d;
+}
+
+#eraseBtn:hover {
+  background-color: #782537;
+  color: antiquewhite;
+}
+
+#clearBtn {
+  background-color: rgb(74, 37, 69);
+  color: antiquewhite;
+}
+/* 
+#canvas {
+  width: 500px;
+  height: 400px;
+} */

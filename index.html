@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="canvas.js"></script>
+    <title>Val-Maker</title>
+  </head>
+  <body>
+    <h1>make-a-Val!</h1>
+    <h3>an art tool for lovers!</h3>
+    <ol>
+      <li>type a name!</li>
+      <li>draw something for ur valentine!</li>
+      <li>save & send!</li>
+    </ol>
+    <p>
+      just a note: there are no undo/redo capabilities right now, and if you
+      type AFTER you draw, it will erase the drawing. sorry, this app, just like
+      love, is imperfect.
+    </p>
+    <main>
+      <canvas id="canvas"></canvas>
+
+      <div class="button-ribbon">
+        <button id="redBtn" data-color="rgb(235, 70, 47)">red</button>
+        <button id="orangeBtn" data-color="rgb(227, 100, 19)">orange</button>
+        <button id="yellowBtn" data-color="rgb(247, 203, 21)">yellow</button>
+        <button id="greenBtn" data-color="rgb(156, 196, 178)">green</button>
+        <button id="blueBtn" data-color="rgb(45, 125, 210)">blue</button>
+        <button id="purpleBtn" data-color="rgb(118, 49, 132)">purple</button>
+        <button id="pinkBtn" data-color="rgb(255, 130, 169)">pink</button>
+        <button id="blackBtn" data-color="rgb(8, 20, 25)">black</button>
+        <button id="whiteBtn" data-color="white">white</button>
+      </div>
+
+      <div>
+        <button id="eraseBtn" data-color="rgb(253, 248, 225)">erase</button>
+        <button id="clearBtn">clear</button>
+      </div>
+
+      <label>put a name on it (or not)</label> <br />
+      <input type="text" placeholder="to:" id="name" />
+      <button id="saveBtn">save it!</button>
+    </main>
+  </body>
+</html>
